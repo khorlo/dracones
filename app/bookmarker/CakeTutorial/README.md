@@ -1,2 +1,0 @@
-# CakeTutorial
-Cakephp tutorial
