@@ -20,8 +20,11 @@ class UsersController extends AppController
     {
         $users = $this->paginate($this->Users);
 
+        //$this->set(compact('users'));
         $this->set(compact('users'));
+        // Random Comment
         $this->set('_serialize', ['users']);
+        // do something
     }
 
     /**
